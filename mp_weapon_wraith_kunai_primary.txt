@@ -1,0 +1,23 @@
+#base "mp_weapon_melee_survival.txt"
+
+WeaponData
+{
+	// General
+	"printname"   									"Kunai"
+	"shortprintname"								"Kunai"
+	"description" 									"Kunai"
+	"longdesc"										"Kunai"
+
+	"weapon_type_flags"								"WPT_MELEE"
+	
+    // UI/HUD
+	"menu_icon"										"rui/hud/common/melee_icon"
+	"hud_icon"										"rui/hud/common/melee_icon"
+
+	// Models
+	"viewmodel"   									"mdl/weapons/kunai/ptpov_kunai_wraith.rmdl"
+	"playermodel" 									"mdl/weapons/kunai/w_kunai_wraith.rmdl"
+
+	//"OnWeaponActivate"							"OnWeaponActivate_weapon_wraith_kunai_primary"
+	//"OnWeaponDeactivate"							"OnWeaponDeactivate_weapon_wraith_kunai_primary"
+}
